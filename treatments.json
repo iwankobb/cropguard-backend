@@ -1,0 +1,411 @@
+{
+  "Tomato___Early_blight": {
+    "disease_name": "Early Blight",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "Early blight is a fungal disease caused by Alternaria solani. It appears as dark lesions with concentric rings on leaves, starting on older lower leaves.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Dark brown spots with concentric rings",
+      "Yellow halo surrounding lesions",
+      "Lower leaves affected first",
+      "Premature defoliation"
+    ],
+    "causes": "Caused by the fungus Alternaria solani, thriving in warm, humid conditions (24-29°C). Spores spread via wind, rain splash, and contaminated tools.",
+    "chemical_treatment": [
+      "Apply Mancozeb (Dithane M-45) at 2g/L water every 7-10 days",
+      "Use Chlorothalonil-based fungicide at label rates",
+      "Copper oxychloride at 3g/L as a protective spray"
+    ],
+    "organic_treatment": [
+      "Spray neem oil solution (5ml/L water) weekly",
+      "Remove and destroy infected leaves immediately",
+      "Apply compost tea as a foliar spray to boost immunity"
+    ],
+    "preventive_measures": [
+      "Rotate crops every 3 seasons",
+      "Maintain proper plant spacing for air circulation",
+      "Avoid overhead irrigation — water at the base",
+      "Use disease-resistant varieties"
+    ]
+  },
+  "Tomato___Late_blight": {
+    "disease_name": "Late Blight",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "Late blight is caused by Phytophthora infestans. It spreads rapidly in cool, wet conditions and can destroy an entire crop within days.",
+    "severity": "severe",
+    "urgency": "Immediate action required",
+    "symptoms": [
+      "Water-soaked dark green to brown lesions on leaves",
+      "White mouldy growth on underside of leaves",
+      "Brown lesions on stems and petioles",
+      "Fruit develops firm brown rot"
+    ],
+    "causes": "Caused by the oomycete Phytophthora infestans. Spreads rapidly in cool (10-25°C), wet and humid conditions.",
+    "chemical_treatment": [
+      "Apply Metalaxyl + Mancozeb (Ridomil Gold) at 2.5g/L immediately",
+      "Use Cymoxanil-based fungicide every 5-7 days",
+      "Copper-based fungicides as a preventive spray"
+    ],
+    "organic_treatment": [
+      "Remove and burn all infected plant parts immediately",
+      "Apply copper sulphate solution (3g/L) as foliar spray",
+      "Improve field drainage to reduce moisture"
+    ],
+    "preventive_measures": [
+      "Plant certified disease-free seedlings",
+      "Avoid planting in low-lying, poorly drained areas",
+      "Space plants adequately for good air circulation",
+      "Destroy crop debris after harvest"
+    ]
+  },
+  "Tomato___Bacterial_spot": {
+    "disease_name": "Bacterial Spot",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "Bacterial spot is caused by Xanthomonas species. It affects leaves, stems and fruit, causing significant yield losses in warm, wet weather.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Small, water-soaked circular spots on leaves",
+      "Spots turn brown with yellow halo",
+      "Raised scab-like spots on fruit",
+      "Defoliation in severe cases"
+    ],
+    "causes": "Caused by Xanthomonas vesicatoria bacteria. Spreads through rain splash, infected seed, and contaminated tools.",
+    "chemical_treatment": [
+      "Spray copper hydroxide (Kocide) at 3g/L every 7 days",
+      "Apply copper oxychloride + mancozeb combination",
+      "Use streptomycin sulphate 200ppm in severe cases"
+    ],
+    "organic_treatment": [
+      "Use copper-based organic sprays weekly",
+      "Remove heavily infected leaves and destroy them",
+      "Avoid working in field when plants are wet"
+    ],
+    "preventive_measures": [
+      "Use certified disease-free seeds",
+      "Treat seeds with hot water (50°C for 25 minutes) before planting",
+      "Rotate crops with non-solanaceous crops",
+      "Sanitise tools regularly with bleach solution"
+    ]
+  },
+  "Tomato___Leaf_Mold": {
+    "disease_name": "Leaf Mold",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "Leaf mold is caused by the fungus Passalora fulva. It thrives in high humidity and primarily affects greenhouse-grown tomatoes.",
+    "severity": "mild",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Pale green or yellow spots on upper leaf surface",
+      "Olive-green to grey velvety mold on underside",
+      "Leaves curl and dry out in severe infections",
+      "Reduced photosynthesis and yield"
+    ],
+    "causes": "Caused by Passalora fulva fungus. Thrives at humidity above 85% and temperatures of 22-25°C.",
+    "chemical_treatment": [
+      "Apply Chlorothalonil (Bravo) at label rates every 7-14 days",
+      "Use Mancozeb 80WP at 2g/L water",
+      "Copper-based fungicides as protective spray"
+    ],
+    "organic_treatment": [
+      "Improve ventilation to reduce humidity",
+      "Apply neem oil (5ml/L) weekly",
+      "Remove and destroy infected leaves promptly"
+    ],
+    "preventive_measures": [
+      "Maintain relative humidity below 85%",
+      "Ensure proper plant spacing",
+      "Avoid wetting foliage during irrigation",
+      "Use resistant tomato varieties"
+    ]
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "disease_name": "Septoria Leaf Spot",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "Septoria leaf spot is a common fungal disease caused by Septoria lycopersici. It starts on lower leaves and moves upward, causing significant defoliation.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Small circular spots with dark brown borders and grey centres",
+      "Tiny black dots (pycnidia) visible in spot centres",
+      "Lower leaves affected first, progressing upward",
+      "Severe yellowing and leaf drop"
+    ],
+    "causes": "Caused by Septoria lycopersici fungus. Spreads via rain splash and wind in warm (20-25°C) wet conditions.",
+    "chemical_treatment": [
+      "Apply Mancozeb at 2g/L every 7-10 days",
+      "Use Chlorothalonil-based fungicide",
+      "Copper oxychloride spray as a preventive measure"
+    ],
+    "organic_treatment": [
+      "Remove infected lower leaves immediately",
+      "Apply neem oil solution weekly",
+      "Mulch around base of plants to prevent soil splash"
+    ],
+    "preventive_measures": [
+      "Rotate tomatoes with non-solanaceous crops for 2+ years",
+      "Stake plants to improve air circulation",
+      "Water at base — avoid wetting leaves",
+      "Remove crop debris thoroughly after harvest"
+    ]
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "disease_name": "Spider Mite Infestation",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "Two-spotted spider mites (Tetranychus urticae) are tiny pests that suck plant sap, causing stippling, bronzing and eventual leaf death in hot dry conditions.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Tiny yellow or white stippling on upper leaf surface",
+      "Fine silky webbing on underside of leaves",
+      "Leaves turn bronze, yellow then brown",
+      "Tiny moving dots visible on leaf underside"
+    ],
+    "causes": "Infestation by Tetranychus urticae mites. Thrives in hot (27-35°C), dry conditions. Spreads via wind and plant contact.",
+    "chemical_treatment": [
+      "Apply Abamectin (Agrimec) at 0.5ml/L water",
+      "Use Spiromesifen (Oberon) miticide at label rate",
+      "Bifenazate-based miticide for severe infestations"
+    ],
+    "organic_treatment": [
+      "Spray forceful water jets on underside of leaves",
+      "Apply neem oil (10ml/L) weekly",
+      "Introduce predatory mites (Phytoseiulus persimilis)"
+    ],
+    "preventive_measures": [
+      "Maintain adequate irrigation to reduce plant stress",
+      "Avoid excessive nitrogen fertilisation",
+      "Monitor plants weekly especially in dry season",
+      "Remove heavily infested leaves promptly"
+    ]
+  },
+  "Tomato___Target_Spot": {
+    "disease_name": "Target Spot",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "Target spot is caused by Corynespora cassiicola fungus. It affects leaves, stems and fruit, and is common in warm, humid tropical climates like Ghana.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Circular brown lesions with concentric rings (target appearance)",
+      "Yellow halo around lesions",
+      "Lesions on both upper and lower leaf surfaces",
+      "Fruit develops sunken dark spots"
+    ],
+    "causes": "Caused by Corynespora cassiicola. Common in warm (25-30°C) humid conditions typical of Ghana's farming seasons.",
+    "chemical_treatment": [
+      "Apply Azoxystrobin (Amistar) at 1ml/L water",
+      "Use Tebuconazole-based fungicide every 10 days",
+      "Mancozeb + Copper oxychloride combination spray"
+    ],
+    "organic_treatment": [
+      "Remove and destroy infected plant material",
+      "Apply neem oil weekly as preventive spray",
+      "Improve field drainage to reduce humidity"
+    ],
+    "preventive_measures": [
+      "Use certified disease-free planting material",
+      "Maintain wide plant spacing",
+      "Avoid overhead irrigation",
+      "Practice crop rotation"
+    ]
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "disease_name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "TYLCV is a devastating viral disease transmitted by the whitefly Bemisia tabaci. It causes severe yield losses and is common in tropical regions including Ghana.",
+    "severity": "severe",
+    "urgency": "Immediate action required",
+    "symptoms": [
+      "Upward curling and yellowing of leaves",
+      "Stunted plant growth",
+      "Small, pale yellow leaves",
+      "Severe flower and fruit drop"
+    ],
+    "causes": "Caused by Tomato yellow leaf curl virus, transmitted by whitefly (Bemisia tabaci). Spreads rapidly in hot, dry conditions.",
+    "chemical_treatment": [
+      "Control whitefly with Imidacloprid (Confidor) at 0.5ml/L",
+      "Apply Thiamethoxam-based insecticide as soil drench",
+      "Use reflective mulches to deter whiteflies"
+    ],
+    "organic_treatment": [
+      "Remove and destroy infected plants immediately",
+      "Install yellow sticky traps to monitor whitefly",
+      "Apply neem oil to deter whitefly vectors",
+      "Use insect-proof netting on seedbeds"
+    ],
+    "preventive_measures": [
+      "Plant TYLCV-resistant tomato varieties",
+      "Control whitefly populations from seedling stage",
+      "Avoid planting near infected fields",
+      "Rogue out infected plants early"
+    ]
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "disease_name": "Tomato Mosaic Virus (ToMV)",
+    "crop": "Tomato",
+    "is_healthy": false,
+    "description": "Tomato mosaic virus causes mottling and distortion of leaves. It is highly infectious and spreads easily through contact with infected plant sap.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Light and dark green mosaic mottling on leaves",
+      "Leaf distortion and curling",
+      "Stunted growth in young plants",
+      "Reduced fruit size and quality"
+    ],
+    "causes": "Caused by Tomato mosaic virus (ToMV). Spreads through infected seed, contaminated tools and hands during crop management.",
+    "chemical_treatment": [
+      "No curative chemical treatment available for viruses",
+      "Control aphid vectors with Imidacloprid at 0.5ml/L",
+      "Apply mineral oil sprays to reduce aphid transmission"
+    ],
+    "organic_treatment": [
+      "Remove and destroy infected plants immediately",
+      "Wash hands thoroughly before handling plants",
+      "Disinfect tools with 10% bleach solution"
+    ],
+    "preventive_measures": [
+      "Use certified virus-free seeds",
+      "Plant resistant varieties where available",
+      "Control aphid and insect vectors",
+      "Do not use tobacco near tomato plants"
+    ]
+  },
+  "Tomato___healthy": {
+    "disease_name": "Healthy Plant",
+    "crop": "Tomato",
+    "is_healthy": true,
+    "description": "Your tomato plant appears healthy with no signs of disease. Continue with good agricultural practices to maintain plant health.",
+    "severity": "none",
+    "urgency": "No action needed",
+    "symptoms": [],
+    "causes": "",
+    "chemical_treatment": [],
+    "organic_treatment": [],
+    "preventive_measures": [
+      "Continue regular monitoring for early disease signs",
+      "Maintain balanced fertilisation programme",
+      "Ensure adequate irrigation without waterlogging",
+      "Practice crop rotation each season"
+    ]
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "disease_name": "Grey Leaf Spot",
+    "crop": "Maize",
+    "is_healthy": false,
+    "description": "Grey leaf spot is caused by Cercospora zeae-maydis fungus. It is one of the most yield-limiting diseases of maize in tropical Africa including Ghana.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Rectangular grey to tan lesions parallel to leaf veins",
+      "Lesions have distinct parallel edges",
+      "Severe cases cause blighting of entire leaves",
+      "Premature plant death in severe infections"
+    ],
+    "causes": "Caused by Cercospora zeae-maydis. Favoured by warm (25-30°C), humid conditions and dense crop stands.",
+    "chemical_treatment": [
+      "Apply Azoxystrobin + Propiconazole (Quilt Xcel) at label rates",
+      "Use Tebuconazole-based fungicide at early infection stage",
+      "Mancozeb 80WP at 2g/L as protective spray"
+    ],
+    "organic_treatment": [
+      "Remove severely infected lower leaves",
+      "Apply neem-based fungicide spray",
+      "Improve field drainage and air circulation"
+    ],
+    "preventive_measures": [
+      "Plant resistant maize varieties (e.g. CIMMYT hybrids)",
+      "Rotate maize with legumes or other non-host crops",
+      "Reduce plant density for better air circulation",
+      "Plough crop residues deeply after harvest"
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "disease_name": "Common Rust",
+    "crop": "Maize",
+    "is_healthy": false,
+    "description": "Common rust is caused by Puccinia sorghi fungus. It is widespread in Ghana's maize-growing areas and can cause significant yield losses if left uncontrolled.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Small, oval to elongated brick-red pustules on both leaf surfaces",
+      "Pustules turn dark brown to black as crop matures",
+      "Severe infection causes leaf yellowing and drying",
+      "Powdery reddish spore masses visible on leaves"
+    ],
+    "causes": "Caused by Puccinia sorghi. Spreads rapidly via wind-borne spores in cool (16-23°C) humid conditions.",
+    "chemical_treatment": [
+      "Apply Propiconazole (Tilt 250EC) at 0.5ml/L at first sign",
+      "Use Tebuconazole-based fungicide every 14 days",
+      "Mancozeb + Copper oxychloride as preventive spray"
+    ],
+    "organic_treatment": [
+      "Apply neem oil extract spray weekly",
+      "Remove heavily infected plants from field",
+      "Improve field air circulation"
+    ],
+    "preventive_measures": [
+      "Plant rust-resistant maize varieties",
+      "Plant early to avoid peak rust seasons",
+      "Monitor fields weekly during humid periods",
+      "Avoid dense planting"
+    ]
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "disease_name": "Northern Leaf Blight",
+    "crop": "Maize",
+    "is_healthy": false,
+    "description": "Northern leaf blight is caused by Exserohilum turcicum. It is a major maize disease in Ghana causing yield losses of up to 50% in susceptible varieties.",
+    "severity": "severe",
+    "urgency": "Immediate action required",
+    "symptoms": [
+      "Long, cigar-shaped grey-green to tan lesions on leaves",
+      "Lesions can reach 15-20cm in length",
+      "Dark sporulation visible in centre of lesions",
+      "Blighting of entire leaf in severe infections"
+    ],
+    "causes": "Caused by Exserohilum turcicum. Favoured by moderate temperatures (18-27°C) and prolonged leaf wetness.",
+    "chemical_treatment": [
+      "Apply Azoxystrobin (Amistar) at 1ml/L water",
+      "Use Propiconazole + Azoxystrobin combination",
+      "Mancozeb 80WP at 2.5g/L as protective spray"
+    ],
+    "organic_treatment": [
+      "Remove and destroy infected crop residues",
+      "Apply Trichoderma-based biocontrol agents",
+      "Neem oil spray at early infection stage"
+    ],
+    "preventive_measures": [
+      "Plant NLB-resistant hybrids",
+      "Rotate with soybeans, groundnuts or cassava",
+      "Avoid planting in poorly drained, humid areas",
+      "Apply balanced NPK fertiliser — avoid excess nitrogen"
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "disease_name": "Healthy Plant",
+    "crop": "Maize",
+    "is_healthy": true,
+    "description": "Your maize plant appears healthy with no signs of disease. Continue with good agronomic practices to maintain and maximise yield.",
+    "severity": "none",
+    "urgency": "No action needed",
+    "symptoms": [],
+    "causes": "",
+    "chemical_treatment": [],
+    "organic_treatment": [],
+    "preventive_measures": [
+      "Continue regular scouting for pests and diseases",
+      "Apply recommended NPK fertiliser at the right growth stage",
+      "Weed regularly especially in the first 6 weeks",
+      "Ensure adequate plant population per hectare"
+    ]
+  }
+}
