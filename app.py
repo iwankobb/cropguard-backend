@@ -58,6 +58,14 @@ def predict():
             'preventive_measures': []
         })
 
+        # Reject low-confidence predictions (non-plant images)
+        if confidence < 70.0:
+            return jsonify({
+                'error': 'Could not identify a crop disease in this image. '
+                         'Please upload a clear, close-up photo of a crop leaf '
+                         'with good lighting. Supported crops: Tomato and Maize.'
+            }), 200
+
         return jsonify({
             'confidence': confidence,
             'label_key': label_key,
