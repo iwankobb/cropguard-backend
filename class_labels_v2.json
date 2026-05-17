@@ -1,0 +1,21 @@
+{
+  "0": "Cassava___Bacterial_Blight",
+  "1": "Cassava___Brown_Streak_Disease",
+  "2": "Cassava___Green_Mite",
+  "3": "Cassava___Mosaic_Disease",
+  "4": "Cassava___healthy",
+  "5": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+  "6": "Corn_(maize)___Common_rust_",
+  "7": "Corn_(maize)___Northern_Leaf_Blight",
+  "8": "Corn_(maize)___healthy",
+  "9": "Tomato___Bacterial_spot",
+  "10": "Tomato___Early_blight",
+  "11": "Tomato___Late_blight",
+  "12": "Tomato___Leaf_Mold",
+  "13": "Tomato___Septoria_leaf_spot",
+  "14": "Tomato___Spider_mites Two-spotted_spider_mite",
+  "15": "Tomato___Target_Spot",
+  "16": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+  "17": "Tomato___Tomato_mosaic_virus",
+  "18": "Tomato___healthy"
+}

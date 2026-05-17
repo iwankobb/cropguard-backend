@@ -408,4 +408,148 @@
       "Ensure adequate plant population per hectare"
     ]
   }
+},
+,
+  "Cassava___Brown_Streak_Disease": {
+    "disease_name": "Cassava Brown Streak Disease (CBSD)",
+    "crop": "Cassava",
+    "is_healthy": false,
+    "description": "Cassava Brown Streak Disease is one of the most devastating cassava diseases in Africa. It causes brown necrotic streaks on stems and brown rot in the tuberous roots, making them inedible.",
+    "severity": "severe",
+    "urgency": "Immediate action required",
+    "symptoms": [
+      "Yellow or brown streaks along leaf veins",
+      "Brown necrotic patches on stems",
+      "Brown corky rot inside the cassava tuber",
+      "Stunted plant growth"
+    ],
+    "causes": "Caused by Cassava brown streak virus (CBSV), transmitted by whitefly (Bemisia tabaci). Spreads through infected cuttings.",
+    "chemical_treatment": [
+      "Control whitefly vectors with Imidacloprid at 0.5ml/L",
+      "Apply Thiamethoxam-based insecticide to reduce vector population",
+      "No direct chemical cure exists for the virus itself"
+    ],
+    "organic_treatment": [
+      "Remove and destroy infected plants immediately",
+      "Use virus-free certified planting cuttings",
+      "Install yellow sticky traps to monitor whitefly populations"
+    ],
+    "preventive_measures": [
+      "Plant CBSD-resistant cassava varieties (e.g. Narocass 1, Kizimbani)",
+      "Source cuttings only from certified disease-free farms",
+      "Control whitefly populations from planting stage",
+      "Avoid replanting cuttings from infected fields"
+    ]
+  },
+  "Cassava___Green_Mite": {
+    "disease_name": "Cassava Green Mite (CGM)",
+    "crop": "Cassava",
+    "is_healthy": false,
+    "description": "Cassava green mite is caused by Mononychellus tanajoa, a tiny pest that feeds on cassava leaves. It is widespread in Ghana and can cause yield losses of up to 80% in severe infestations.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Tiny yellow spots on upper leaf surface",
+      "Leaf distortion and curling",
+      "Stunted shoot growth",
+      "Leaves turn yellow to brown in severe cases"
+    ],
+    "causes": "Caused by the green mite Mononychellus tanajoa. Thrives in hot, dry conditions. Spreads via wind and contaminated planting material.",
+    "chemical_treatment": [
+      "Apply Abamectin (Agrimec) at 0.5ml/L water",
+      "Use Fenpyroximate miticide at label rates",
+      "Spray Bifenazate-based miticide for severe infestations"
+    ],
+    "organic_treatment": [
+      "Release predatory mites (Typhlodromalus aripo) as biocontrol",
+      "Spray neem oil solution at 10ml/L weekly",
+      "Remove and destroy severely infested plant tips"
+    ],
+    "preventive_measures": [
+      "Plant early in the season to avoid peak dry season mite pressure",
+      "Maintain adequate soil moisture — stressed plants are more susceptible",
+      "Use mite-tolerant cassava varieties",
+      "Monitor fields weekly especially during dry season"
+    ]
+  },
+  "Cassava___Mosaic_Disease": {
+    "disease_name": "Cassava Mosaic Disease (CMD)",
+    "crop": "Cassava",
+    "is_healthy": false,
+    "description": "Cassava Mosaic Disease is the most widespread and damaging cassava disease in Africa including Ghana. It is caused by a group of whitefly-transmitted viruses and can cause yield losses of 20-95%.",
+    "severity": "severe",
+    "urgency": "Immediate action required",
+    "symptoms": [
+      "Mosaic pattern of yellow and green on leaves",
+      "Leaf distortion and twisting",
+      "Stunted plant and reduced canopy",
+      "Small, misshapen leaves"
+    ],
+    "causes": "Caused by Cassava mosaic begomoviruses transmitted by whitefly (Bemisia tabaci). Also spreads through infected stem cuttings.",
+    "chemical_treatment": [
+      "Control whitefly with Imidacloprid (Confidor) at 0.5ml/L",
+      "Apply Pymetrozine-based insecticide to reduce whitefly numbers",
+      "No direct chemical cure for the virus"
+    ],
+    "organic_treatment": [
+      "Rogue out and destroy infected plants immediately",
+      "Use certified virus-free stem cuttings for planting",
+      "Apply neem oil to deter whitefly vectors"
+    ],
+    "preventive_measures": [
+      "Plant CMD-resistant varieties (e.g. TME 419, Bankye Hemaa)",
+      "Source planting cuttings from disease-free certified farms",
+      "Control whitefly from the beginning of the season",
+      "Avoid planting near heavily infected fields"
+    ]
+  },
+  "Cassava___Bacterial_Blight": {
+    "disease_name": "Cassava Bacterial Blight (CBB)",
+    "crop": "Cassava",
+    "is_healthy": false,
+    "description": "Cassava Bacterial Blight is caused by Xanthomonas axonopodis. It is a serious disease in humid tropical regions including Ghana, causing wilting, dieback and significant yield losses.",
+    "severity": "moderate",
+    "urgency": "Monitor closely",
+    "symptoms": [
+      "Angular water-soaked leaf spots that turn brown",
+      "Wilting of shoot tips",
+      "Stem cankers with gummy exudate",
+      "Dieback of branches in severe cases"
+    ],
+    "causes": "Caused by Xanthomonas axonopodis pv. manihotis bacteria. Spreads through infected cuttings, rain splash, contaminated tools and insects.",
+    "chemical_treatment": [
+      "Spray copper hydroxide (Kocide) at 3g/L every 7-10 days",
+      "Apply copper oxychloride as protective spray",
+      "Use streptomycin sulphate in severe outbreaks"
+    ],
+    "organic_treatment": [
+      "Remove and destroy infected plant parts",
+      "Disinfect cutting tools with 10% bleach between plants",
+      "Avoid working in fields when plants are wet"
+    ],
+    "preventive_measures": [
+      "Use certified disease-free stem cuttings",
+      "Treat cuttings with hot water (50°C for 49 minutes) before planting",
+      "Plant resistant varieties where available",
+      "Practice crop rotation with non-host crops"
+    ]
+  },
+  "Cassava___healthy": {
+    "disease_name": "Healthy Plant",
+    "crop": "Cassava",
+    "is_healthy": true,
+    "description": "Your cassava plant appears healthy with no signs of disease. Continue with good agronomic practices to maintain plant health and maximise yield.",
+    "severity": "none",
+    "urgency": "No action needed",
+    "symptoms": [],
+    "causes": "",
+    "chemical_treatment": [],
+    "organic_treatment": [],
+    "preventive_measures": [
+      "Continue regular field scouting for pests and diseases",
+      "Use certified disease-free cuttings for next planting season",
+      "Apply balanced fertiliser at recommended rates",
+      "Weed regularly especially in the first 3 months after planting"
+    ]
+  }
 }

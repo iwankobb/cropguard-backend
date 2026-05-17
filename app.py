@@ -11,8 +11,8 @@ app = Flask(__name__)
 CORS(app)
 
 BASE_DIR = os.path.dirname(__file__)
-MODEL_PATH = os.path.join(BASE_DIR, 'model', 'best_model.keras')
-LABELS_PATH = os.path.join(BASE_DIR, 'class_labels.json')
+MODEL_PATH = os.path.join(BASE_DIR, 'model', 'best_model_v2.keras')
+LABELS_PATH = os.path.join(BASE_DIR, 'class_labels_v2.json')
 TREATMENTS_PATH = os.path.join(BASE_DIR, 'treatments.json')
 
 print("⏳ Loading model...")
