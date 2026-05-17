@@ -4,3 +4,10 @@ tensorflow
 pillow
 numpy
 gunicorn
+flask
+flask-cors
+tensorflow
+pillow
+numpy
+gunicorn
+gdown

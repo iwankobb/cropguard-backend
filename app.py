@@ -15,6 +15,15 @@ MODEL_PATH = os.path.join(BASE_DIR, 'model', 'best_model_v2.keras')
 LABELS_PATH = os.path.join(BASE_DIR, 'class_labels_v2.json')
 TREATMENTS_PATH = os.path.join(BASE_DIR, 'treatments.json')
 
+# Download model from Google Drive if not present
+if not os.path.exists(MODEL_PATH):
+    print("⬇️ Downloading model from Google Drive...")
+    os.makedirs(os.path.join(BASE_DIR, 'model'), exist_ok=True)
+    import gdown
+    FILE_ID = '1ZiLOnLLzEdu-Yk7bE2gBP8tKyqtv8hYi'
+    gdown.download(f'https://drive.google.com/uc?id={FILE_ID}', MODEL_PATH, quiet=False)
+    print("✅ Model downloaded")
+
 print("⏳ Loading model...")
 model = load_model(MODEL_PATH)
 print("✅ Model loaded successfully")
@@ -58,12 +67,11 @@ def predict():
             'preventive_measures': []
         })
 
-        # Reject low-confidence predictions (non-plant images)
         if confidence < 70.0:
             return jsonify({
                 'error': 'Could not identify a crop disease in this image. '
                          'Please upload a clear, close-up photo of a crop leaf '
-                         'with good lighting. Supported crops: Tomato and Maize.'
+                         'with good lighting. Supported crops: Tomato, Maize and Cassava.'
             }), 200
 
         return jsonify({
